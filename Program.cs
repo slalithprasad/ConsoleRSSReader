@@ -46,7 +46,7 @@ while (true)
         string feedUrl = RssFeeds[selectedKey];
 
         Console.Clear();
-        Console.WriteLine($"Fetching news from: {selectedKey}...\n");
+        Console.WriteLine($"Fetching RSS feed from: {selectedKey}...\n");
 
         await FetchAndDisplayRss(feedUrl).ConfigureAwait(false);
     }

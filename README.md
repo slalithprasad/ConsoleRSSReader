@@ -69,7 +69,7 @@ Enter choice (1-7) or 'q' to quit: 7
 
 Enter the number of feeds that you want to read: 10
 
-Fetching news from: Cricket Live Scores...
+Fetching RSS feed from:: Cricket Live Scores...
 
 📰 Vidarbha 375/9 &  379/10 * v Kerala 342/10 
 🔗 http://www.cricinfo.com/ci/engine/match/1445956.html?CMP=OTC-RSS 
@@ -150,8 +150,7 @@ Enter choice (1-7) or 'q' to quit:  1
 
 Enter the number of feeds that you want to read: 10
 
-
-Fetching news from: World - BBC...
+Fetching RSS feed from:: World - BBC...
 
 📰 Israel blocks entry of all humanitarian aid into Gaza
 🔗 https://www.bbc.com/news/articles/c9q4w99je78o
