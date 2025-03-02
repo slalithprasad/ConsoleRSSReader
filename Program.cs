@@ -48,7 +48,7 @@ while (true)
         Console.Clear();
         Console.WriteLine($"Fetching news from: {selectedKey}...\n");
 
-        await FetchAndDisplayRss(feedUrl);
+        await FetchAndDisplayRss(feedUrl).ConfigureAwait(false);
     }
     else
     {
@@ -62,7 +62,7 @@ async Task FetchAndDisplayRss(string url)
     using HttpClient client = new();
     try
     {
-        string xml = await client.GetStringAsync(url);
+        string xml = await client.GetStringAsync(url).ConfigureAwait(false);
         XDocument doc = XDocument.Parse(xml);
 
         var items = doc.Descendants("item");
